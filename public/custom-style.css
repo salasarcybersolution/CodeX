@@ -1,0 +1,153 @@
+#Fetch{
+  margin-bottom: -67px;
+  width: 100%;
+}
+.track_btn {
+    padding-left: 0;
+}
+.error{
+	color: red;
+	font-size: 12px;
+}  
+.chosen-container{
+	width: 100% !important;
+}
+.status_Inactive {
+  color: #f06548 !important;
+}
+.status_Active {
+  color: green !important;
+}
+
+.leave_Approved{
+	color: green !important;
+}
+.leave_Pending{
+	color: #f06548 !important;
+}
+
+.leave_Rejected{
+	color: red !important;
+}
+.btn-dark {
+  background-color: #405189 !important;
+  border-color: #405189 !important;
+}
+
+
+.after-design {
+  font-size: 1rem;
+  position: relative;
+}
+
+
+.after-design span {
+  background-color: white;
+  padding-right: 10px;
+}
+
+.after-design:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.5em;
+  border-top: 1px solid black;
+  z-index: -1;
+}
+
+
+.new-parts input, .new-parts select {
+  width: 100%;
+  padding: 0px 5px;
+  height: 30px;
+}
+
+.new-parts td{
+  padding: 5px 3px !important;
+}
+.new-parts th {
+  text-align: left !important;
+  padding-left: 0 !important;
+}
+
+.new-parts .btn-icon{
+  height: 22px !important;
+  width: 22px !important;
+}
+.new-parts select {
+  width: 100%;
+}
+.parts-wrapper{
+  min-height: 300px;
+}
+#estimate_value, #assesed_value {
+  color: red;
+  font-weight: bold;
+  border-bottom: 2px solid;
+  padding: 0 7px;
+  margin-left: 16px;
+}
+#difference_value {
+  color: #000000;
+  font-weight: bold;
+  border-bottom: 2px solid;
+  padding: 0 7px;
+  margin-left: 16px;
+}
+
+
+
+.lb-new-parts input:not([type="checkbox"]) {
+  width: 100%;
+  padding: 0px 5px;
+  height: 30px;
+}
+.lb-new-parts td{
+  padding: 3px 3px !important;
+  font-size: 13px;
+}
+.lb-new-parts th {
+  text-align: left !important;
+  padding-left: 0 !important;
+}
+
+.check__list {
+    text-align: left;
+}
+.check__list .form-label {
+    float: unset !important;
+    padding-left: 4px;
+}
+
+.btn-next {
+    margin-left: 0.5rem;
+}
+.nav-link-tab {
+    padding: 0.2rem 1rem;
+    display: inline-block;
+    color: #697a8d !important;
+}
+.nav-link-tab.active {
+    border-bottom: 2px solid #8fbd56;
+}
+.tab-number {
+    display: block;
+    max-width: 38px;
+    height: 19px;
+    padding-top: 2px;
+    margin: 0 auto;
+    border-radius: 15px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.check-out {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.check-out.checked {
+  border: 1px solid #8fbd56;
+}
